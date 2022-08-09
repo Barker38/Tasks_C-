@@ -4,3 +4,15 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
+Console.WriteLine("Введите первое число: ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите второе число: ");
+int c = Convert.ToInt32(Console.ReadLine());
+if (a >= c)
+{
+    Console.Write($"max = {a}");
+}
+else
+{
+    Console.Write($"max = {c}");
+}
